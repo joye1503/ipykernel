@@ -6,6 +6,7 @@ matrix:
     - arch: amd64
       python: 3.8
     - arch: arm64-graviton2
+      python: 3.8
       group: edge
       virt: lxd
       dist: xenial
