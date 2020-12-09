@@ -42,10 +42,3 @@ script:
   - pytest --cov ipykernel --durations 10 -v ipykernel
 after_success:
   - codecov
-matrix:
-  include:
-    - python: 3.8
-      env:
-        - IPYTHON=master
-  allow_failures:
-    - python: "nightly"
